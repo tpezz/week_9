@@ -11,7 +11,7 @@ func TestT_Mean(t *testing.T) {
 	mean, err := TMean(data, 0.1, 0.1)
 	// confirm no errors
 	if err != nil {
-		t.Errorf("Unexpected error: %v", err)
+		t.Errorf("error: %v", err)
 	}
 	// create varible with expected value
 	expected := 5.5
